@@ -1,16 +1,10 @@
-Hi,
+<html>
+<head>
+<h2> Welcome to Our Website</h2>
+</head>
+<body>
 
- I am Murugesan K from Karaikudi 
- 
- ok proceed you 
-  
-
-thank you sir 
-
-shall i learn here sir
-
-yes you can learn a lot of things here and its just look like as a real time project working environment 
-ok 
-regards 
-office manager
+<h3> Welcome Everybody to this Page </h3>
+</body>
+</html>
 
