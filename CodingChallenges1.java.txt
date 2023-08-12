@@ -4,6 +4,7 @@ public static void main(String[] args) {
 System.out.println("Welcome Mr.Murugesan");
 int n =1;
 String name = "Murugesan.";
-
+int mobileNo = 9095614367;
+int age = 28;
 }
 }
