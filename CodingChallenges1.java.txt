@@ -2,10 +2,16 @@ public class CodingChallenges1 {
 public static void main(String[] args) {
 
 System.out.println("Welcome Mr.Murugesan");
+
 int n =1;
-String name = "Murugesan.";
+String name = "Murugesan.K";
+
 
 double salary = 25000.00;
 boolean graduated = true;
+
+int mobileNo = 9095614367;
+int age = 28;
+
 }
 }
