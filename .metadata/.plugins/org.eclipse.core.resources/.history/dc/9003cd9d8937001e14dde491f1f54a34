@@ -1,0 +1,10 @@
+package org.base;
+
+import org.openqa.selenium.support.PageFactory;
+
+public class MynthraPOJO extends BaseClass {
+
+	public MynthraPOJO() {
+		PageFactory.initElements(driver, this);
+	}
+}

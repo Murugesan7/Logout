@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.safari.SafariDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.opera.OperaDriver"/>
+    <fullyQualifiedTypeName name="org.base.FlipkartPOJO"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ScheduledThreadPoolExecutor"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+    <fullyQualifiedTypeName name="org.base.GMailPOJO"/>
+    <fullyQualifiedTypeName name="org.base.FacebookPOJO"/>
+    <fullyQualifiedTypeName name="org.apache.xmlbeans.impl.xb.xsdschema.ListDocument.List"/>
+    <fullyQualifiedTypeName name="cucumber.api.SnippetType"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+    <fullyQualifiedTypeName name="org.base.AmazonPOJO"/>
+    <fullyQualifiedTypeName name="org.base.AmazonSigninPOJO"/>
+    <fullyQualifiedTypeName name="java.io.Closeable"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+    <fullyQualifiedTypeName name="org.base.BaseClass"/>
+    <fullyQualifiedTypeName name="org.base.MynthraPOJO"/>
+    <fullyQualifiedTypeName name="io.cucumber.datatable.DataTable"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,48 @@
+package org.stepdefinition1;
+
+import org.base.BaseClass;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class FlipkartLogin extends BaseClass {
+
+	@Given("To Launch the url of the Flipkart Application.")
+	public void to_Launch_the_url_of_the_Flipkart_Application() {
+	launchBrowser();
+	}
+
+	@When("To Click the Signin Button.")
+	public void to_Click_the_Signin_Button() {
+	 
+	}
+
+	@When("To Pass the Valid email in Email Field and Click the getOTP request Button.")
+	public void to_Pass_the_Valid_email_in_Email_Field_and_Click_the_getOTP_request_Button() {
+	   
+	}
+
+	@When("To Pass the Invalid Mobile No in Mobile No Field.")
+	public void to_Pass_the_Invalid_Mobile_No_in_Mobile_No_Field() {
+	  
+	}
+
+	@When("To Click the Next Button.")
+	public void to_Click_the_Next_Button() {
+	   
+	}
+
+	@When("To Check Whether Navigate to Signup or not.")
+	public void to_Check_Whether_Navigate_to_Signup_or_not() {
+	    
+	}
+	
+	
+	@Then("To Close the Browser.")
+	public void to_Close_the_Browser() throws InterruptedException {
+		Thread.sleep(5000);
+		close();
+	}
+	
+}

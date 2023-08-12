@@ -1,0 +1,10 @@
+package org.stepdefinition;
+
+import org.base.BaseClass;
+import org.base.GMailPOJO;
+
+public class GMailLogin extends BaseClass{
+
+	GMailPOJO g;
+	
+}

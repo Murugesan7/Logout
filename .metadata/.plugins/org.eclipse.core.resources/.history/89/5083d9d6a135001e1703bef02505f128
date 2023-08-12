@@ -1,0 +1,15 @@
+Feature: To Validate the account creation offb application.
+
+Scenario: To Create new account.
+Given To Launch the Browser and maximize the window.
+When To launch the url of fb application
+And To click the create new account button
+And To pass firstname in firstname text box.
+|Selenium|Python|Java|PHP|React Native|
+And To pass lastname in lastname text box.
+And To pass email or mobile no in email or mobile text box.
+|abc@gmail.com|xyz@gmail.com|def@gmail.com|tuv@gmail.com|
+|123456|23456790|91212121121|9119129132|
+|nan@gmail.com|12345|67890|123123134|
+And To pass new password in new password text box.
+Then To close the Chrome Browser.

@@ -1,0 +1,194 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/Sample3.feature");
+formatter.feature({
+  "name": "To Validate the account creation of Amazon application.",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "To Create new account.",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.before({
+  "error_message": "java.lang.ExceptionInInitializerError\r\n\tat io.github.bonigarcia.wdm.config.Config.defaultOsName(Config.java:346)\r\n\tat io.github.bonigarcia.wdm.config.Config.\u003cinit\u003e(Config.java:103)\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.\u003cinit\u003e(WebDriverManager.java:189)\r\n\tat io.github.bonigarcia.wdm.managers.ChromeDriverManager.\u003cinit\u003e(ChromeDriverManager.java:47)\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.chromedriver(WebDriverManager.java:204)\r\n\tat org.base.BaseClass.launchBrowser(BaseClass.java:15)\r\n\tat org.stepdefinition.HookClass.precondition2(HookClass.java:16)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\nCaused by: java.lang.StringIndexOutOfBoundsException: Range [0, 3) out of bounds for length 2\r\n\tat java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)\r\n\tat java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)\r\n\tat java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)\r\n\tat java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)\r\n\tat java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)\r\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4602)\r\n\tat java.base/java.lang.String.substring(String.java:2715)\r\n\tat org.apache.commons.lang.SystemUtils.getJavaVersionAsFloat(SystemUtils.java:1133)\r\n\tat org.apache.commons.lang.SystemUtils.\u003cclinit\u003e(SystemUtils.java:818)\r\n\t... 43 more\r\n",
+  "status": "failed"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "To Launch the Browser and maximize the window.",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AmazonSignUp.toLaunchTheBrowserAndMaximizeTheWindow()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "To launch the url of amazon application",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "AmazonSignUp.toLaunchTheUrlOfAmazonApplication()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "To click the create new amazon account button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AmazonSignUp.toClickTheCreateNewAmazonAccountButton()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "To pass name in name text box.",
+  "rows": [
+    {
+      "cells": [
+        "Murugesan",
+        "Saravanan",
+        "Ranjith",
+        "Gopinath",
+        "Ramesh"
+      ]
+    }
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AmazonSignUp.toPassNameInNameTextBox(DataTable)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "To pass mobile no in mobile no text box.",
+  "rows": [
+    {
+      "cells": [
+        "mobile1",
+        "1234567892"
+      ]
+    },
+    {
+      "cells": [
+        "mobile2",
+        "9095614367"
+      ]
+    },
+    {
+      "cells": [
+        "mobile3",
+        "9786407599"
+      ]
+    }
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AmazonSignUp.toPassMobileNoInMobileNoTextBox(DataTable)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "To pass email in email text box.",
+  "rows": [
+    {
+      "cells": [
+        "abc@gmail.com",
+        "xyz@gmail.com",
+        "def@gmail.com"
+      ]
+    },
+    {
+      "cells": [
+        "naanjil.murugesan@gmail.com",
+        "sef@gmail.com",
+        "xcn@gmail.com"
+      ]
+    },
+    {
+      "cells": [
+        "nan@gmail.com",
+        "lmnopqrust@gmail.com",
+        "pqrst@gmail.com"
+      ]
+    }
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AmazonSignUp.toPassEmailInEmailTextBox(DataTable)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "To pass the password in password text box.",
+  "rows": [
+    {
+      "cells": [
+        "password1",
+        "password2",
+        "password3"
+      ]
+    },
+    {
+      "cells": [
+        "abcdef",
+        "tuvwxyz",
+        "lmnopqr"
+      ]
+    },
+    {
+      "cells": [
+        "1234554567",
+        "12345",
+        "98765"
+      ]
+    }
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AmazonSignUp.toPassThePasswordInPasswordTextBox(DataTable)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "To close the Chrome Browser.",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "AmazonSignUp.toCloseTheChromeBrowser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.after({
+  "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"org.base.BaseClass.driver\" is null\r\n\tat org.base.BaseClass.close(BaseClass.java:43)\r\n\tat org.stepdefinition.HookClass.postconditions2(HookClass.java:31)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:48)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
+  "status": "failed"
+});
+formatter.after({
+  "status": "passed"
+});
+});

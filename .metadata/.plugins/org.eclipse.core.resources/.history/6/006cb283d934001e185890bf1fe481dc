@@ -1,0 +1,19 @@
+Feature: To Validate the Login Functionality of the Flipkart Application.
+
+Scenario: To Validate Login with Valid email and Invalid Mobile No.
+
+Given  To Launch the Chrome Browser and Maximize the Window.
+
+When To Launch the url of the Flipkart Application.
+
+And  To Click the Signin Button.
+
+And To Pass the Valid email in Email Field and Click the getOTP request Button.
+
+And To Pass the Invalid Mobile No in Mobile No Field.
+
+And  To Click the Next Button.
+
+And To Check Whether Navigate to Signup or not.
+
+Then To Close the Browser.

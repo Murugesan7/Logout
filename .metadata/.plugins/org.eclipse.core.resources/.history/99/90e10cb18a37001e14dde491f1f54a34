@@ -1,0 +1,33 @@
+package org.stepdefinition;
+
+import org.base.BaseClass;
+import org.base.MynthraPOJO;
+
+import cucumber.api.java.en.When;
+import io.cucumber.datatable.DataTable;
+
+public class MynthraLogin extends BaseClass {
+
+	MynthraPOJO m;
+	
+	@When("user has to launch the url of mynthra application")
+	public void userHasToLaunchTheUrlOfMynthraApplication() {
+		 Url("https://www.myntra.com/");
+	}
+
+	@When("To click the Signin Menu.")
+	public void toClickTheSigninMenu() {
+	  m = new MynthraPOJO();
+	  
+	}
+
+	@When("User to pass the mobile no in mobile no text box.")
+	public void userToPassTheMobileNoInMobileNoTextBox(DataTable d) {
+		m = new MynthraPOJO();
+	}
+
+	@When("User to hit the Continue button.")
+	public void userToHitTheContinueButton() {
+		m = new MynthraPOJO();
+	}
+}

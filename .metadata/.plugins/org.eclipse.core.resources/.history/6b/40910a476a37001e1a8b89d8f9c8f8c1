@@ -1,0 +1,259 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16162872957,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.precondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1320683,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.precondition1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8108432,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.precondition()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To Create new account.",
+        "description": "",
+        "id": "to-validate-the-account-creation-of-amazon-application.;to-create-new-account.",
+        "after": [
+          {
+            "result": {
+              "duration": 5004960931,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.postconditions1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1519101703,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.postconditions2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 440525,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.postconditions3()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1192587,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Launch the Browser and maximize the window.",
+            "match": {
+              "location": "AmazonSignUp.toLaunchTheBrowserAndMaximizeTheWindow()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20065832867,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url of amazon application",
+            "match": {
+              "location": "AmazonSignUp.toLaunchTheUrlOfAmazonApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6937379798,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click the create new amazon account button",
+            "match": {
+              "location": "AmazonSignUp.toClickTheCreateNewAmazonAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2222931238,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To pass name in name text box.",
+            "match": {
+              "location": "AmazonSignUp.toPassNameInNameTextBox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Murugesan",
+                  "Saravanan",
+                  "Ranjith",
+                  "Gopinath",
+                  "Ramesh"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232484433,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass mobile no in mobile no text box.",
+            "match": {
+              "location": "AmazonSignUp.toPassMobileNoInMobileNoTextBox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mobile1",
+                  "1234567892"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile2",
+                  "9095614367"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile3",
+                  "9786407599"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 370820979,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To pass email in email text box.",
+            "match": {
+              "location": "AmazonSignUp.toPassEmailInEmailTextBox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abc@gmail.com",
+                  "xyz@gmail.com",
+                  "def@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "naanjil.murugesan@gmail.com",
+                  "sef@gmail.com",
+                  "xcn@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "nan@gmail.com",
+                  "lmnopqrust@gmail.com",
+                  "pqrst@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 410791396,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "To pass the password in password text box.",
+            "match": {
+              "location": "AmazonSignUp.toPassThePasswordInPasswordTextBox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password1",
+                  "password2",
+                  "password3"
+                ]
+              },
+              {
+                "cells": [
+                  "abcdef",
+                  "tuvwxyz",
+                  "lmnopqr"
+                ]
+              },
+              {
+                "cells": [
+                  "1234554567",
+                  "12345",
+                  "98765"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540949,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "To close the Chrome Browser.",
+            "match": {
+              "location": "AmazonSignUp.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the account creation of Amazon application.",
+    "description": "",
+    "id": "to-validate-the-account-creation-of-amazon-application.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sample3.feature",
+    "tags": []
+  }
+]

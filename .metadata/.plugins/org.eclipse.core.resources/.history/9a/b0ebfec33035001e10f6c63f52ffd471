@@ -1,0 +1,9 @@
+Feature: To Validate the account creation offb application.
+
+Scenario: To Create new account.
+Given To Launch the Browser and maximize the window.
+When To launch the url of fb application
+And To click the create new account button
+And 
+
+

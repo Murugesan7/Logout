@@ -1,0 +1,16 @@
+package org.base;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class BankPOJO extends BaseClass {
+	public BankPOJO() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(xpath = "//button[@class='_2KpZ6l _2HKlqd _3AWRsL']")
+	private WebElement requestOtp;
+
+
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23429844169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.precondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1347468,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.precondition1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 627986,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.precondition()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "To Validate the Login Functionality of the Para Bank application. .",
+        "description": "",
+        "id": "to-validate-the-account-creation-of-para-bank-application.;to-validate-the-login-functionality-of-the-para-bank-application.-.",
+        "after": [
+          {
+            "result": {
+              "duration": 5003264899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postconditions1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1975072060,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postconditions2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 600759,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postconditions3()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5555491235,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user has to launch the url of para bank application",
+            "match": {
+              "location": "BankLogin.userHasToLaunchTheUrlOfParaBankApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 630097862,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User to pass the username in username text box.",
+            "match": {
+              "location": "BankLogin.userToPassTheUsernameInUsernameTextBox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "naanjil.murugesan",
+                  "sarvesh@123",
+                  "xcn@321"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 518597651,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User to pass the password in password text box.",
+            "match": {
+              "location": "BankLogin.userToPassThePasswordInPasswordTextBox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password1",
+                  "tuvwxyz"
+                ]
+              },
+              {
+                "cells": [
+                  "password2",
+                  "lmnopqr"
+                ]
+              },
+              {
+                "cells": [
+                  "password3",
+                  "9786423"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1597766211,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User to hit the Login button.",
+            "match": {
+              "location": "BankLogin.userToHitTheLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the account creation of Para Bank application.",
+    "description": "",
+    "id": "to-validate-the-account-creation-of-para-bank-application.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/sample3.feature",
+    "tags": []
+  }
+]

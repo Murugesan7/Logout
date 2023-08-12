@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass (6)" project="MynthraCucumber" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="org.stepdefinition.TestRunnerClass" incomplete="true">
+    <testsuite name="Feature: To Validate the account creation &amp; Search Product of Mynthra application." incomplete="true">
+      <testcase name="To Validate the Login Functionality of the Mythra application." classname="To Validate the account creation &amp; Search Product of Mynthra application." incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

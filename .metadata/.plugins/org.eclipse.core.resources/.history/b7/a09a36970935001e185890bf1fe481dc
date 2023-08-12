@@ -1,0 +1,11 @@
+Feature: To Validate the Login Functionality of the GMail Application.
+
+Scenario: To Validate Login with valid email id and invalid password.
+Given To Launch the Chrome Browser and maximize the window.
+When To launch the url of the GMail Application.
+And To Pass the Valid EMail in Email Field.
+And To Click the Next Button.
+And To Pass the Invalid Password in the Password Field.
+And To Click the Submit Button.
+Then To Close the Entire Browser.
+

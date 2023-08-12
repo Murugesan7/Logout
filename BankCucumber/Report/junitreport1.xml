@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.723852">
+    <testcase classname="To Validate the account creation of Para Bank application." name="To Validate the Login Functionality of the Para Bank application. ." time="38.723852">
+        <system-out><![CDATA[When user has to launch the url of para bank application....................passed
+And User to pass the username in username text box..........................passed
+And User to pass the password in password text box..........................passed
+And User to hit the Login button............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
