@@ -5,5 +5,7 @@ System.out.println("Welcome Mr.Murugesan");
 int n =1;
 String name = "Murugesan.";
 
+double salary = 25000.00;
+boolean graduated = true;
 }
 }
