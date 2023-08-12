@@ -2,6 +2,8 @@ public class CodingChallenges1 {
 public static void main(String[] args) {
 
 System.out.println("Welcome Mr.Murugesan");
+int n =1;
+String name = "Murugesan.";
 
 }
 }
